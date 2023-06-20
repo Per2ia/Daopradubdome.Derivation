@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+}
+
+.banner
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    transition: 0.5;
+}
+
+
+.banner2
+{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    transition: 0.5;
+    padding: 50px;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content 
+{
+    position: relative;
+    max-width: 850px;
+    z-index: 10;
+
+    font-family: "BoldThaiFont";
+    
+
+}
+
+.content h3 
+{
+    font-size: 2em;
+    color: #333;
+    font-weight: 200;
+    transition: 0.5s;
+}
+
+.content h2
+{
+    font-size: 5.5em;
+    color: #333;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+.content h2 span 
+{
+    color: khaki;
+}
+
+.women
+{
+    right: 100px;
+    bottom: 0;
+    max-height: 50vh;
+}
+
+.Star 
+{
+    max-width: 100px;
+    max-height: 100px;
+    top: 50em;
+}
+
+.content2
+{
+    max-width: 80vh;
+}
+
+.content2 h1 
+{
+font-size: 2em;
+}
+
+.content2
+{
+    position: relative;
+    z-index: 10;
+
+    max-width: 100%;
+    left: -2em;
+    font-family: "BoldThaiFont";
+}
+
+    .content2 .one 
+{
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 120%;
+    margin-top: -8em;
+}
+
+.content3
+{
+    max-width: 50vh;
+    left: 0px;
+}
+.content3 h1 
+{
+    position: absolute;
+    font-size: 2em;
+    left: 50%;
+    top: 12em;
+}
+
+.two {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    /* margin-left: -90%;
+    margin-top: 20em; */
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: (-50px);
+}

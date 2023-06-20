@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "StarDome";
+	src: url(Font/J-airplane-swash-italic-font.ttf) format("opentype");
+
+}
+
+@font-face {
+	font-family: "ThaiFont";
+	src: url(Font/TH\ Fah\ kwang\ Regular.ttf) format("truetype");
+	
+}
+
+@font-face {
+	font-family: "BoldThaiFont" ;
+	src: url(Font/FC\ Subject\ [Non-commercial\ use]\ Bold\ ver\ 1.00.otf) format("opentype");
+	
+}
+
+@font-face {
+	font-family: "Kanit-Bold";
+	src: url(Font/Kanit\ Bold/Kanit-Bold) format("opentype");
+}
