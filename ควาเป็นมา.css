@@ -102,8 +102,10 @@
   }
 
   .u-section-1 .u-text-3 {
+    margin-top: 20px;
     margin-right: 212px;
     margin-left: 305px;
+    margin-bottom: initial;
   }
 
   .u-section-1 .u-group-1 {
@@ -132,9 +134,7 @@
   .u-section-1 .u-text-3 {
     font-size: 1.25rem;
     width: auto;
-    margin-top: -32px;
-    margin-right: 159px;
-    margin-left: 239px;
+    margin: -32px 159px 0 239px;
   }
 
   .u-section-1 .u-text-4 {
@@ -998,7 +998,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 589px;
+    min-height: 503px;
   }
 
   .u-section-6 .u-slider-1 {
@@ -1016,8 +1016,26 @@
 
   .u-section-6 .u-text-3 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Open Sans", sans-serif;
+  }
+
+  .u-section-6 .u-text-5 {
+    font-size: 1.25rem;
+  }
+
+  .u-section-6 .u-text-6 {
+    font-size: 1.25rem;
+  }
+
+  .u-section-6 .u-text-7 {
+    font-size: 1.25rem;
+  }
+
+  .u-section-6 .u-carousel-control-1 {
+    left: 0;
+    position: absolute;
+    right: auto;
   }
 }.u-section-7 .u-sheet-1 {
   min-height: 354px;
